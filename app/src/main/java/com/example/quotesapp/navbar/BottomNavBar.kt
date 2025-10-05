@@ -22,7 +22,7 @@ fun BottomNavBar(
     onItemSelected: (NavItem) -> Unit = {}
 ) {
     BottomAppBar(
-        modifier = Modifier.height(80.dp),
+        modifier = Modifier.height(120.dp),
         containerColor = Color.White
     ) {
         Row(
