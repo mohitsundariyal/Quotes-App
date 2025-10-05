@@ -60,7 +60,7 @@ fun LoginScreen() {
                             ),
                             contentDescription = null,
                             tint = Color.Unspecified,
-                            modifier = Modifier.padding(start = 50.dp, top = 10.dp)
+                            modifier = Modifier.padding(start = 50.dp, top = 15.dp)
                         )
                         Spacer(modifier = Modifier.width(20.dp))
                         Text(text = "Login with Google" ,modifier = Modifier.padding(top = 15.dp), fontWeight = FontWeight.Bold,fontSize = 16.sp)
@@ -96,7 +96,7 @@ fun LoginScreen() {
 
             }
         }
-        Text(text = "Terms and Services | Privacy Policy", color = Color(0xFF8a958f), fontSize = 12.sp, modifier = Modifier.align(Alignment.BottomCenter).padding(bottom = 40.dp))
+        Text(text = "Terms and Services | Privacy Policy", color = Color(0xFF8a958f), fontSize = 12.sp, modifier = Modifier.align(Alignment.BottomCenter).padding(bottom = 45.dp))
     }
 }
 
